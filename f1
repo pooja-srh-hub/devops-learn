@@ -1,0 +1,37 @@
+DevOps is the integration and automation of the software development and information technology operations[a]. DevOps encompasses necessary tasks of software development and can lead to shortening development time and improving the development life cycle.[1] According to Neal Ford, DevOps, particularly through continuous delivery, employs the "Bring the pain forward" principle, tackling tough tasks early, fostering automation and swift issue detection.[2] Software programmers and architects should use fitness functions to keep their software in check.[3]
+
+Although debated,[b][c][d][e] DevOps is characterized by key principles: shared ownership, workflow automation, and rapid feedback. From an academic perspective, Len Bass, Ingo Weber, and Liming Zhu—three computer science researchers from the CSIRO and the Software Engineering Institute—suggested defining DevOps as "a set of practices intended to reduce the time between committing a change to a system and the change being placed into normal production, while ensuring high quality".[7] However, the term is used in multiple contexts. At its most successful, DevOps is a combination of specific practices, culture change, and tools.[8]
+
+History
+Proposals to combine software development methodologies with deployment and operations concepts began to appear in the late 80s and early 90s.[9]
+In 2009, the first conference named DevOps Days was held in Ghent, Belgium. The conference was founded by Belgian consultant, project manager and agile practitioner Patrick Debois.[10][11] The conference has now spread to other countries.[12]
+
+In 2012, a report called "State of DevOps" was first published by Alanna Brown at Puppet Labs.[13][14]
+
+As of 2014, the annual State of DevOps report was published by Nicole Forsgren, Gene Kim, Jez Humble and others. They stated that the adoption of DevOps was accelerating.[15][16] Also in 2014, Lisa Crispin and Janet Gregory wrote the book More Agile Testing, containing a chapter on testing and DevOps.[17][18]
+
+In 2016, the DORA metrics for throughput (deployment frequency, lead time for changes), and stability (mean time to recover, change failure rate) were published in the State of DevOps report.[13] However, the research methodology and metrics were criticized by experts.[19][20][21][22] In response to these criticisms, the 2023 State of DevOps report [23] published changes that updated the stability metric "mean time to recover" to "failed deployment recovery time" acknowledging the confusion the former metric has 
+DevOps Research and Assessment (DORA) has developed a series of metrics which are intended to measure software development efficiency and reliability. These metrics include: [25][26]
+
+Deployment Frequency: Time between code deployments.
+Mean Lead Time for Changes: Time between code commit and deployment.
+Change Failure Rate: Percentage of deployments causing production issues.
+Failed Deployment Recovery Time (formerly Mean Time To Recover)
+Reliability (added in 2021): Measures operational performance, focusing on availability and adherence to user expectations.
+Relationship to other approaches
+Many of the ideas fundamental to DevOps practices are inspired by, or mirror, other well known practices such as Lean and Deming's Plan-Do-Check-Act cycle, through to The Toyota Way and the Agile approach of breaking down components and batch sizes.[27] Contrary to the "top-down" prescriptive approach and rigid framework of ITIL in the 1990s, DevOps is "bottom-up" and flexible, having been created by software engineers for their own needs.[28]
+
+Platform engineering
+Main article: Platform engineering
+Platform engineering is an emerging discipline within software engineering that supports DevOps by building and maintaining internal developer platforms (IDPs). These platforms provide standardized tools and reusable components—such as CI/CD pipelines, infrastructure provisioning, observability, and security controls—to streamline software delivery and reduce the cognitive load on developers. The goal is to enable self-service capabilities, improve productivity, and ensure consistency across development and operations teams.[29][30]
+
+Agile
+Main article: Agile software development
+The motivations for what has become modern DevOps and several standard DevOps practices such as automated build and test, continuous integration, and continuous delivery originated in the Agile world, which dates (informally) to the 1990s, and formally to 2001. Agile development teams using methods such as extreme programming couldn't "satisfy the customer through early and continuous delivery of valuable software"[31] unless they took responsibility for operations and infrastructure for their applications, automating much of that work. Because Scrum emerged as the dominant Agile framework in the early 2000s and it omitted the engineering practices that were part of many Agile teams, the movement to automate operations and infrastructure functions splintered from Agile and expanded into what has become modern DevOps. Today, DevOps focuses on the deployment of developed software, whether it is developed using Agile oriented methodologies or other methodologies.
+
+ArchOps
+ArchOps presents an extension for DevOps practice, starting from software architecture artifacts, instead of source code, for operation deployment.[32] ArchOps states that architectural models are first-class entities in software development, deployment, and operations.
+
+Continuous Integration and Delivery (CI/CD)
+Main article: CI/CD
+Automation is a core principle for achieving DevOps success and CI/CD is a critical component.[33] Plus, improved collaboration and communication between and within teams helps achieve faster time to market, with reduced risks.[34]
